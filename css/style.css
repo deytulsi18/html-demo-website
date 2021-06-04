@@ -128,7 +128,7 @@ section {
   position: relative;
   padding: 100px;
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-color: var(--bg-color);
 }
 .cover {
@@ -591,4 +591,39 @@ footer .footerMenu li a {
 }
 #loadMore {
   cursor: pointer;
+}
+svg {
+  transition: 0.001s !important;
+}
+.waves-sec {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+  min-height: 0;
+  fill: var(--bg-color) !important;
+  /* fill: red !important; */
+}
+
+#footer-svg {
+  fill: var(--footer-bg-color) !important;
+}
+section {
+  padding: 0;
+}
+#social {
+  display: flex;
+  flex-wrap: wrap;
+}
+#home {
+  min-height: 100vh;
+}
+.extraPadding {
+  padding: 6.25em;
+}
+
+@media (max-width: 991px) {
+  .extraPadding {
+    padding: 1rem;
+  }
 }
