@@ -1,0 +1,38 @@
+#theme-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  width: fit-content;
+  background-color: #70757a;
+  border: 1px solid var(--text-color);
+  border-radius: 2.5em;
+  margin-top: 1rem;
+}
+.theme-dot {
+  cursor: pointer;
+  display: inline-flex;
+  margin: 0.3rem;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.9rem;
+  border-radius: 50%;
+}
+#light-mode {
+  background-color: #eee;
+  border: 1px solid #232323;
+}
+#dark-mode {
+  background-color: #232323;
+  border: 1px solid #eee;
+}
+
+@media only screen and (max-width: 768px) {
+  .theme-dot {
+    margin: 0.125rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.3rem;
+    margin: 0.3rem;
+  }
+}
