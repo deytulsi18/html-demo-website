@@ -1,0 +1,13 @@
+:root {
+  --bg-color: #1f1f1f;
+  --text-color: #eee;
+  --hd-tp-color: #00000020;
+  --bg-tp-color: #00000040;
+  --text-focus: #eee;
+  --footer-bg-color: #121212;
+}
+
+header,
+footer {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
